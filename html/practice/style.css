@@ -1,0 +1,144 @@
+header {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 1200px;
+    align-items: center;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    width: auto;
+    background-color: rgb(226, 214, 214);
+    background-size: cover;
+}
+
+.logo {
+    color: crimson;
+    font-size: 2.5em;
+    font-style: bold;
+}
+
+.navigation a {
+    position: relative;
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.navigation .btsignin {
+    border-width: 2px;
+    border-radius: 30%;
+    height: 30px;
+    margin: 48px;
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+.wrapper {
+    color: black;
+    font-size: 80%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(200, 210, 219);
+    border: 2px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(20x);
+    display: flex;
+    padding: 0px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.wrapper .btsignin {
+    border-width: 2px;
+    display: right;
+    margin: 3px;
+    border-radius: 30%;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    height: 30px;
+    color: white;
+    background: transparent;
+    background-color: black;
+    border-color: rgb(8, 0, 0);
+}
+
+.form-box h1 {
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper .form-box {
+    font-size: large;
+}
+
+.input-box {
+    border-bottom: 2px solid black;
+    position: relative;
+    height: 58px;
+}
+
+.input-box input {
+    border-bottom: 1px solid black;
+    width: 70%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    padding: 0 35px 0 5px;
+}
+
+.input-box ::placeholder {
+    color: rgb(43, 41, 41);
+    font-weight: 100;
+    font-size: 100%;
+    font-style: bold;
+    background: transparent;
+}
+
+.input-box-1 {
+    border-bottom: 2px solid black;
+    position: relative;
+    height: 60px;
+}
+
+.input-box-1 input {
+    border-bottom: 1px solid black;
+    width: 70%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-box-1 ::placeholder {
+    color: rgb(43, 41, 41);
+    font-size: 100%;
+    font-weight: 100;
+    font-style: bold;
+    background: transparent;
+    pointer-events: none;
+}
+
+.wrapper a {
+    font-size: 75%;
+    margin: 25px;
+}
