@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+.header{
+    position: absolute;
+    top: 100px;
+}
+ul{
+    list-style: none;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-transform: uppercase;
+    color: black;
+    display: flex;
+}

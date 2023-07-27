@@ -1,0 +1,44 @@
+@media (max-width:576px) {
+  .image img{
+  width: 835px;
+}
+.head_main{
+  width: 835px;
+}
+.header{
+  width: 835px;
+}
+
+
+/* =====================content========================= */
+.content {
+  width: 835px;
+  top: 190px;
+}
+
+.content p {
+  letter-spacing: 1px;
+}
+/* =============================main div======================= */
+.maindiv .filter-bar{
+  height: 272px;
+    width: 545px;
+    top: 305px;
+    left: 140px;
+}
+/* =====================filter-bar=========================== */
+.filter-bar .bar1{
+  width: 220px;
+  height: 272px;
+  display: block;
+  margin: 5px 0px 0px 0px 0px;
+}
+.bar1 .location{
+  margin: 25px 0px 20px 40px
+}
+  
+}
+
+
+
+
