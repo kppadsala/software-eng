@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(241, 144, 165);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 10px 10px 23px rgb(83, 78, 78);
+  display: flex;
+  justify-content: flex-end;
+}
+.container .imgcontainer {
+  height: 250px;
+  width: 130px;
+  background-color: black;
+  text-align: end;
+  margin-top: 26px;
+  border-radius: 10px 0px 0px 10px;
+}
+.container .imgcontainer .img {
+  height: 250px;
+  width: 130px;
+  
+}
+.container .imgcontainer .img .red {
+  height: 250px;
+  width: 200px;
+  margin: 0px 0px 300px 0px;
+}
+
+.container .imgcontainer .img .blue{
+    height: 250px;
+  width: 200px;
+  margin: 0px 0px 300px 0px;
+  
+}
+.container .imgcontainer .img .perpol{
+    height: 250px;
+  width: 200px;
+  margin: 0px 0px 300px 0px;
+}
+.container .imgcontainer .img .yellow{
+    height: 250px;
+  width: 200px;
+  margin: 0px 0px 300px 0px;
+}
+.container .imgcontainer .img .brown{
+    height: 250px;
+  width: 200px;
+  margin: 0px 0px 300px 0px;
+} 
+
+.container .infocontainer {
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.container .infocontainer .main {
+  height: 63px;
+  width: 100%;
+  /* background-color: burlywood; */
+}
+.container .infocontainer .main h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 10px;
+}
+.container .infocontainer .main p {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: rgb(138, 131, 131);
+  padding-left: 10px;
+  margin-top: -10px;
+}
+.container .infocontainer .price {
+  height: 30px;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  padding-left: 10px;
+}
+.container .infocontainer .price span {
+  font-size: 15px;
+  color: brown;
+  margin-top: 15px;
+}
+.container .infocontainer .price h3 {
+  font-size: 25px;
+  color: rgb(179, 36, 36);
+  margin: 6px 0px 0px 3px;
+}
+.container .infocontainer .color {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.container .infocontainer .color h3 {
+  font-size: 20px;
+  color: cadetblue;
+}
+.container .infocontainer .more-color {
+  height: 43px;
+  width: 100%;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 5px 0px 0px;
+}
+.container .infocontainer .more-color div {
+  height: 40px;
+  width: 25px;
+}
+.container .infocontainer .more-color div:hover {
+  /* border: 1px solid rgb(211, 205, 205);; */
+  /* background-color:  rgb(243, 237, 237);; */
+  /* border-radius: 3px; */
+  /* padding: 3px 0px 0px 5px; */
+  /* box-shadow: 2px 2px 10px rgb(207, 207, 207);; */
+  /* transition: 2s ease-in all; */
+}
+.container .infocontainer .more-color div img {
+  height: 40px;
+  width: 25px;
+}
+.container .infocontainer .more-color div img:hover {
+  /* height: 50px; */
+  /* width: 35px; */
+  padding: 0px;
+  transform: scale(1.5);
+  transition: 1s all ease;
+}
+.container .infocontainer .size {
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.container .infocontainer .size h3 {
+  font-size: 20px;
+  color: cadetblue;
+}
+.container .infocontainer .more-size {
+  height: 35px;
+  width: 100%;
+
+  display: flex;
+  justify-content: start;
+  margin: 4px 0px 0px 4px;
+  gap: 0px;
+}
+.container .infocontainer .more-size div {
+  height: 20px;
+  width: 28px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 2px;
+}
+.container .infocontainer .more-size div:hover {
+  color: darkorange;
+}
+.container .infocontainer .btn {
+  background-color: rgb(245, 47, 47);
+  border: 1px solid rgb(105, 101, 101);
+  border-radius: 5px;
+  color: white;
+  height: 20px;
+  width: 100px;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}
+.container .infocontainer .btn:hover {
+  box-shadow: 2px 2px 10px hsl(0, 0%, 43%);
+}
+/* =================================== */
+.container .imgcontainer .red {
+  height: 250px;
+  width: 130px;
+}
+
+.container .imgcontainer .blue {
+  height: 250px;
+  width: 130px;
+}

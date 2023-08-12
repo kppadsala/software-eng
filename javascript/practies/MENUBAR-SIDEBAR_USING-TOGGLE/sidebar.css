@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.toggleheader .logo {
+  flex: 0.5;
+  font-size: 50px;
+  margin-left: 30px;
+  color: white;
+}
+
+.toggleheader {
+  width: 100%;
+  height: 150px;
+  background-color: #6a5f75;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.toggleheader .navbar {
+  width: 300px;
+  align-items: center;
+  background-color: rgb(153, 147, 165);
+  border-radius: 0px 0px 10px 10px ;
+  margin-right: -388px;
+  transition:2s ease all;
+  z-index: 1;
+}
+
+.toggleheader .navbar .nav {
+  width: 100%;
+  height: 400px;
+  flex: 2;
+  margin: 200px -788px 0px 0px;
+  
+  display: none;
+}
+.toggleheader .navbar .nav ul {
+  justify-content: space-evenly;
+  margin-top: 50px;
+  
+}
+.toggleheader .navbar .nav ul li {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.toggleheader .navbar .nav ul li:hover {
+  border: 2px solid rgb(49, 48, 48);
+  border-radius: 0px 30px 0px 30px;
+  box-shadow: 10px 10px 1px 1px rgba(20, 20, 20, 0.267);
+}
+.toggleheader .navbar .nav ul li a {
+  color: white;
+  padding: 13px;
+}
+.toggleheader .icon .tbtn {
+  
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  
+  
+}
+.toggleheader .navbar .nav .cbtn{
+  width: 45px;
+  height: 45px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px 0px -45px ;
+}
+/* ============= BG-IMG======================*/
+.bg-img {
+  height: 800px;
+  width: 100%;
+  background-color: aqua;
+}
+.bg-img img {
+  height: 800px;
+  width: 100%;
+  filter: brightness(150%);
+}
+.menubar{
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+}
+/* ==================================================== */
+
+/* ==============nav-menu for toggle in javascript========= */
+
+
+.toggleheader .navbar .nav-menu {
+  width: 100%;
+  height: 400px;
+  margin: 250px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  
+
+}
+.toggleheader .navbar .nav-menu ul {
+  justify-content: space-evenly;
+  margin-top: 80px;
+  
+}
+.toggleheader .navbar .nav-menu ul li {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.toggleheader .navbar .nav-menu ul li:hover {
+  border: 2px solid rgb(49, 48, 48);
+  border-radius: 0px 30px 0px 30px;
+  box-shadow: 10px 10px 1px 1px rgba(20, 20, 20, 0.267);
+}
+.toggleheader .navbar .nav-menu ul li a {
+  color: white;
+  padding: 13px;
+}
+

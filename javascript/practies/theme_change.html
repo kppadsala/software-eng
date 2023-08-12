@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE THE THEME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        span{
+            font-size: 50px;
+        }
+        
+        .darkTheme{
+            background-color: rgb(3, 3, 3);
+            color: white;
+        }
+        .darkTheme a{
+            color: white;
+            text-decoration: none;
+        }
+         
+        
+    </style>
+</head>
+<body>
+    <div class="icon">
+        <span class="fa-regular fa-moon"></span>
+        <!-- <span class="fa-regular fa-sun"></span> -->
+    </div>
+    <h1>Hello world !!! <a href="">good morning</a></h1>
+    
+    <script>
+        let icon=document.querySelector(".fa-moon");
+        icon.addEventListener("click",function(){
+            document.body.classList.toggle("darkTheme")
+
+            if (document.body.classList.contains("darkTheme") == true) {
+                icon.classList.remove("fa-moon")
+                icon.classList.add("fa-sun")
+            } else {
+                icon.classList.remove("fa-sun")
+                icon.classList.add("fa-moon")
+            }
+        })
+    </script>
+</body>
+</html>

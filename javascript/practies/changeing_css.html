@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: 5px solid blueviolet;
+            margin-top: 30px;
+            
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            font-size: 18px;
+
+        }
+    </style>
+</head>
+<body>
+    <button onclick="changeval()" > aplay css</button>
+    <button onclick="removeval()"> remove css </button>
+    <div class="divval" id="div1" onmouseover="changeval()" onmouseout="removeval()"></div>
+    <script>
+        function changeval(){
+            let rect=document.getElementById("div1");
+            rect.style.backgroundColor="black"
+            rect.style.borderRadius="50%"
+            rect.style.transition="1s all ease"
+            rect.style.border="5px solid brown"
+        }
+        function removeval(){
+            let rect=document.getElementById("div1");
+            rect.style.backgroundColor="grey"
+            rect.style.borderRadius="0"
+            rect.style.transition="1s all ease"
+            rect.style.border=" 5px solid blueviolet"
+        }
+
+    </script>
+</body>
+</html>
