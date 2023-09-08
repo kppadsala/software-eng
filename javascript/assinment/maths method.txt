@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATHS OPRETION</title>
+    <style>
+        .value{
+            display: flex;
+            flex-direction:column ;
+            gap: 10px;
+        }
+        .value input{
+            width: 150px;
+            margin-top: 5px;
+        }
+        .button{
+            margin-top: 20px;
+        }
+        .button button{
+            width: 40px;
+            padding: 10px;
+            font-size: 25px;
+            margin: 6px;
+        }
+        .button button:hover{
+             transition: 0.5s all ease;
+             transform: scaleX(1.2);
+             box-shadow: 5px 5px 10px black;
+        }
+        .message{
+            margin-top: 20px;
+        }
+        .ans{
+            font-size: 20px;
+            background-color: rgb(235, 143, 240);
+        }
+      .message  #msg{
+           border-bottom: 1px solid black;
+             padding: 2px 0px 0px 100px;
+             margin-left: 10px;
+}
+    </style>
+
+</head>
+<body>
+    <div class="value">
+        <label for="">Enter Value 1</label>
+        <input type="text" id="value1">
+        <label for="">Enter Value 2</label>
+        <input type="text" id="value2">
+    </div>
+    <div class="button">
+        <button id="pulse" onclick="add()">+</button>
+        <button id="sub" onclick="sub()">-</button>
+        <button id="multi" onclick="multi()">*</button>
+        <button id="divid" onclick="divid()">/</button>
+        <button id="modulo" onclick="modulo()">%</button>
+    </div>
+    <div class="message">
+        <span class="ans"> Answer is </span>
+        <span id="msg" onblur="add();sub(); multi();divid();modulo()"></span>
+    </div>
+    <script>
+        function add(){
+            let v1 = Number(document.getElementById("value1").value);
+            let v2 = Number(document.getElementById("value2").value);
+            let sum=v1+v2;
+           let msg = document.getElementById("msg").innerText=sum ;
+        }
+        function sub() {
+                let v1 = Number(document.getElementById("value1").value);
+                let v2 = Number(document.getElementById("value2").value);
+                let sub = v1 - v2;
+                let msg = document.getElementById("msg").innerText = sub;
+            }
+        function multi() {
+                    let v1 = Number(document.getElementById("value1").value);
+                    let v2 = Number(document.getElementById("value2").value);
+                    let multi = v1 * v2;
+                    let msg = document.getElementById("msg").innerText = multi;
+                }
+        function divid() {
+                        let v1 = Number(document.getElementById("value1").value);
+                        let v2 = Number(document.getElementById("value2").value);
+                        let divid = v1 / v2;
+                        let msg = document.getElementById("msg").innerText = divid;
+                    }
+        function modulo() {
+                            let v1 = Number(document.getElementById("value1").value);
+                            let v2 = Number(document.getElementById("value2").value);
+                            let modulo = v1 % v2;
+                            let msg = document.getElementById("msg").innerText = modulo;
+                        }
+    </script>
+</body>
+</html>
