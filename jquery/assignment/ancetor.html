@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+        border: 2px solid gray;
+        padding: 20px;
+    }
+    ul{
+        border: 2px solid gray;
+        padding: 20px;
+    }
+    li{
+        border: 2px solid gray;
+        padding: 20px;
+        list-style: none;
+    }
+    h1{
+        border: 2px solid gray;
+        padding: 20px;
+    }
+  
+    .changecss{
+        border: 2px solid red;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+   body (great great grandparent)
+    <div class="main">main div (great grandparent)
+      <ul>ul(grand parent)
+        <li>li(direct parent)
+            <h1>span</h1>
+        </li>
+      </ul>
+    </div>
+   
+    <script src="./jQuery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("h1").parents("").addClass("changecss")
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="hide">Hide</button>
+    <button class="show">Show</button>
+    <button class="toggle">Toggle</button>
+    <h1>Hello Krunal</h1>
+    <!-- jqury cdn -->
+    <script src="./jquery.js"></script>
+    <script>
+        // <!-- HIDE FUNCTION -->
+        $(document).ready(function(){
+            $(".hide").click(function(){
+                $("h1").hide(2000)
+            })
+            // show function
+            $(".show").click(function () {
+                 $("h1").show(2000)
+            })
+            // show function
+            $(".toggle").click(function () {
+                $("h1").toggle(1500)
+            })
+        })
+    </script>
+  
+</body>
+</html>
