@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hotelbooking.css">
+</head>
+
+<body>
+    <section>
+        <div class="img">
+            <img src="./hotel1.jpg" alt="" srcset="">
+        </div>
+
+        <div class="mainpage">
+            <form action="">
+                <ul>
+                    <li><label for="">Choice of booking</label>
+                        <select name="" id="daybook"  onclick="selectvalid() ">
+                            <option value="-1">Choose Your Booking</option>
+                            <option value="1" onclick="selectvalid() ">Full day booking</option>
+                            <option value="2" onclick="selectvalid() ">Half day booking</option>
+                            <option value="3" onclick="selectvalid() ">Hourly booking</option>
+                        </select>
+                        <span id="msg"></span>
+                    </li>
+                    <li>
+                        <label for="">User Name</label>
+                        <input type="text" placeholder="Enter Username" id="name">
+                    </li>
+                    <li><label for="">Mobail Number</label>
+                        <input type="text" placeholder="Enter Mobail Number" id="phone" maxlength="10">
+                    </li>
+                    <li><label for="">Email</label>
+                        <input type="text" placeholder="Enter Email" id="email">
+                    </li>
+                    <li><label for="">No Of Person</label>
+                        <input type="text" placeholder="Enter No Of Person">
+                    </li>
+                    <li id="date"><label for="" >Date</label>
+                        <input type="date" placeholder="Enter">
+                    </li>
+                    <li id="time"><label for="">Time</label>
+                        <input type="time" placeholder="Enter">
+                    </li>
+                    <li id="slot"><label id="">Select Slot</label>
+                        <select name="" >
+                            <option value="-1">Select Your Slot</option>
+                            <option value="">Breakfast</option>
+                            <option value="">Lunch</option>
+                            <option value="">Dinner</option>
+                        </select>
+                    </li>
+                    <li>
+                        <button onclick="return selectvalid()"> click here</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <script src="./hotel.js"></script>
+</body>
+
+</html>
