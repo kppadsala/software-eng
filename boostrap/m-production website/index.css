@@ -1,0 +1,325 @@
+.header{
+    z-index: 1;
+    
+}
+
+
+.carousel-inner{
+    background-image: url(./image/Industry-1.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 400px 100px 100px 100px;
+}
+.carousel-caption{
+    text-align: start!important;
+}
+.carousel-inner .carousel-item h1{
+    color: white;
+    font-size: 60px;
+    text-shadow: 0px 0px 2px white;
+    text-align: start;
+}
+.carousel-inner .carousel-item p{
+    color: white;
+    font-size: 15px;
+    text-align: start;
+
+}
+.carousel-indicators {
+    justify-content: start!important;
+    left: 70px!important;
+    bottom: 70px!important;
+}
+.carousel-indicators button{
+    background-color: white!important;
+    border-radius: 50%;
+        height: 13px!important;
+    width: 13px!important;
+}
+
+
+
+.carousel-inner .carousel-item h5{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+
+}
+.carousel-inner .carousel-item  button{
+    background-color: white;
+    transition: 0.5 all ease;
+    border: 0px solid transparent;
+    text-transform: capitalize;
+    font-weight: 400;
+    
+
+}
+.carousel-inner .carousel-item button:hover{
+    background-color:#2196F3;
+    color: white;
+}
+
+.parts-factory .main-part .department{
+    background-color: rgb(11, 11, 58);
+    width: 250px;
+    margin-top: 15px;
+}
+.parts-factory .main-part .department h1{
+    color: #ff5e00;
+}
+.worker {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./image/woker.jpg);
+}
+.worker h1{
+    color: rgb(7, 7, 87);
+    text-shadow: 0px 0px 10px white;
+}
+.worker h3{
+    color: rgb(7, 7, 87);
+    text-shadow: 0px 0px 10px rgb(211, 210, 210);
+}
+
+.worker button{
+    background-color: #ff5e00;
+    color: white;
+    font-weight:bold ;
+}
+.worker button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.growth{
+    background-color: #F2F2F2;
+
+}
+.parts-factory{
+    background-color: #F2F2F2;
+}
+.main-repair{
+    background-color: #F2F2F2;
+}
+.maintance{
+    background-color: #F2F2F2;
+}
+.maintance p{
+    color: grey;
+}
+.maintance h1{
+    color: #ff5e00;
+}
+.testimonial{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./image/tesimonial2.jpg);
+    padding-bottom: 70px;
+}
+
+.testimonial .public{
+    height: 350px;
+    width:400px;
+}
+.testimonial img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.testimonial .batch{
+    color: #ff5e00;
+}
+.company-work{
+    background-color:#F2F2F2 ;
+}
+.company-work .date,.read{
+    color: #ff5e00;
+}
+.update{
+    background-color: #020D26;
+}
+.update p{
+    color: white;
+    font-size: 13px;
+}
+.update h3{
+    color: #FF5B1A;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.update button{
+    background-color: #FF5E14;
+    border: 0px;
+    color: white;
+    padding: 7px 15px;
+    margin-left: -4px!important;
+
+}
+.update input{
+    padding: 5px 55px 5px 35px;
+    
+}
+.travel{
+    background-color: #020D26;
+}
+.travel h1{
+    color: #FF5B1A;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.travel p{
+    text-align: center;
+    text-transform: capitalize;
+    color: gray;
+
+}
+.travel h3{
+    color: gray;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.travel a p{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+
+}
+.con-form{
+    background-color: #F2F2F2;
+}
+.con-form button{
+    background-color: #FF5B1A;
+    color: white;
+    border: none;
+
+}
+.con-form button:hover{
+    background-color: #020D26;
+ 
+ 
+
+}
+.con-form h1{
+    font-size: 35px!important;
+}
+.con-form h1 span{
+    font-size: 35px!important;
+}
+.con-list{
+    background-color: #F2F2F2;
+}
+
+.con-list ul{
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+}
+.con-list a{
+    text-decoration: none;
+}
+.con-list li{
+    color: rgb(87, 85, 85);
+    font-size: 15px;
+}
+.social{
+    background-color: #020D26;
+}
+.social a{
+    color:#FF5B1A;
+}
+.social a:hover{
+    color:#dad8d7;
+    text-shadow: 0px 0px 2px white;
+}
+
+/* ==========responsive========= */
+@media (max-width:576px) {
+    .testimonial{
+        height: 1500px!important;
+    }
+     .testimonial .public{
+        height: 320px;
+     }
+     .update input{
+    padding: 5px 0px 5px 10px;
+    
+}
+
+.company-work{
+    padding: 0px;
+}
+.main-repair .detail{
+    padding: 10px!important;
+}
+.main-1
+{
+    margin-top: 20px;
+}
+}
+@media (min-width:576px) {
+     .testimonial .public{
+        height: 250px;
+     }
+     .company-work{
+    padding: 0px!important;
+}
+.main-repair .detail{
+    padding: 10px!important;
+}
+.main-1
+{
+    margin-top: 15px;
+}
+}
+@media (min-width:786px) {
+    .testimonial{
+        height: 1300px!important;
+    }
+    .testimonial .public{
+    height: 400px;
+    width: 250px;
+}
+.company-work{
+    padding: 0px;
+}
+.main-repair .detail{
+    padding: 10px!important;
+}
+.update input{
+    padding: 5px 0px 5px 10px;
+    
+}
+.main-1
+{
+    margin-top: 15px;
+}
+}
+@media (min-width:992px) {
+     .testimonial .public{
+        height: 340px;
+     }
+     .update input{
+    padding: 5px 55px 5px 35px;
+    
+}
+.main-repair .detail{
+    padding: 50px!important;
+}
+}
+    
+
+

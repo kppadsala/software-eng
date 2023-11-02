@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-PRODUCTION</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- boostrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- boostrrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- font awosome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="container-fluid position-fixed  header m-0 p-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid ">
+
+                <a class="navbar-brand text-capitalize fw-bold fs-2" href="#"><span
+                        class="fa-solid fa-industry me-2 fs-3 ms-2" style="color: #fd7e14;"></span>m-production</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-capitalize ms-5 ps-4">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">home</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item dropdown pe-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">event</a></li>
+                                <li><a class="dropdown-item" href="#">services</a></li>
+                                <li><a class="dropdown-item" href="#">single page</a></li>
+                                <li><a class="dropdown-item" href="#">team page</a></li>
+                                <li><a class="dropdown-item" href="#">submenu</a></li>
+                                <li><a class="dropdown-item" href="#">team page</a></li>
+                                <li><a class="dropdown-item" href="#">project</a></li>
+                                <li><a class="dropdown-item" href="#">search result</a></li>
+                                <li><a class="dropdown-item" href="#">faq</a></li>
+                                <li><a class="dropdown-item" href="#">time line</a></li>
+                                <li><a class="dropdown-item" href="#">email template</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown pe-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">blog</a></li>
+                                <li><a class="dropdown-item" href="#">blog single</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown pe-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ecommerce</a></li>
+                                <li><a class="dropdown-item" href="#">ecommerce single</a></li>
+                                <li><a class="dropdown-item" href="#">ecommerce cart</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="#">contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-light text-capitalize  px-4"
+                            style="background-color: #fd7e14; color: white;" type="submit">login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- SLIDER -->
+    <div id="carouselExampleDark" class="carousel carousel-dark ">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active pt-5" data-bs-interval="10000">
+                <div class="carousel-caption d-none d-md-block pt-5">
+                    <!-- <h5>ILDING UP VISION LEADING FUTURE</h5> -->
+                    <h1>Great Technology Best Services</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugit nihil ut perspiciatis
+                        impedit debitis!</p>
+                    <button class="px-4 py-2 rounded-2 bg">start exploring</button>
+
+                </div>
+            </div>
+            <div class="carousel-item pt-5" data-bs-interval="2000">
+
+                <div class="carousel-caption d-none d-md-block pt-5">
+                    <h5>BUILDING UP VISION LEADING FUTURE</h5>
+                    <h1>Advanced Industrial & Manufacturing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fuga qui eum quas,
+                        laboriosam quaerat.</p>
+                    <button class="px-4 py-2 rounded-2 bg">start exploring</button>
+
+                </div>
+            </div>
+            <div class="carousel-item pt-5">
+
+                <div class="carousel-caption d-none d-md-block pt-5">
+                    <h5>BUILDING UP VISION LEADING FUTURE</h5>
+                    <h1>We are industry Factory Solutions</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem molestiae porro molestias
+                        ipsum tenetur.</p>
+                    <button class="px-4 py-2  rounded-2 bg">start exploring</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- GROWTH -->
+    <!-- <div class="card-group growth pt-5 ">
+        <div class="card m-4 border-0 ps-2 ">
+            <div class="card-body ps-5 ">
+                <h1 class="col-md-3  card-title d-flex gap-3 align-items-center text text-center"><span
+                        class="fa-solid fa-handshake "></span><span> 280+ </span></h1>
+
+                
+                <p class="text-center"><span class="text-dark fw-bold fs-5">Successfully</span> completed projects</p>
+            </div>
+        </div>
+        <div class="card m-4 border-0 ">
+            <div class="card-body ps-5">
+                <h1 class="col-md-3  card-title d-flex gap-3 align-items-center text text-center"><span
+                        class="fa-solid fa-people-group "></span><span>
+                        400+ </span></h1>
+
+                <p class="text-center"> <span class="text-dark fw-bold fs-5"> Highly </span>specialised employees</p>
+
+            </div>
+        </div>
+        <div class="card m-4 border-0 ">
+            <div class="card-body ps-5">
+                <h1 class="col-md-3  card-title d-flex gap-3 align-items-center text text-center"><span
+                        class="fa-solid fa-earth-americas "></span><span>
+                        15 </span></h1>
+                <p class="text-center"><span class="text-dark fw-bold fs-5">Countries</span> around the world</p>
+            </div>
+        </div>
+    </div> -->
+  
+
+    <!-- MAIN-PART -->
+    <div class="container-fluid py-5 parts-factory m-0 p-0">
+        <div class="row  main-part justify-content-evenly m-0 p-0">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 department p-3">
+                <h1><i class="py-1 fa-solid fa-plug"></i></h1>
+                <h5 class="text-white py-2 text-capitalize">automotive <br> manufacturing</h5>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae officia error
+                    ipsum nobis inventore reiciendis fuga hic suscipit provident dicta!</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 department p-3">
+                <h1><i class="py-1 fa-solid fa-gears"></i></h1>
+                <h5 class=" text-white text-capitalize">mechancal <br>engineering</h5>
+                <p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae officia error
+                    ipsum nobis inventore reiciendis fuga hic suscipit provident dicta!</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 department p-3">
+                <h1><i class="py-1 fa-solid fa-hammer"></i></h1>
+                <h5 class="text-white py-2 text-capitalize">industrial <br> construction</h5>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae officia error
+                    ipsum nobis inventore reiciendis fuga hic suscipit provident dicta!</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 department p-3">
+                <h1><i class="py-1 fa-solid fa-droplet"></i></h1>
+                <h5 class="text-white py-2 text-capitalize">oil & gas <br> energy</h5>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae officia error
+                    ipsum nobis inventore reiciendis fuga hic suscipit provident dicta!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- WORKER -->
+    <div class="container-fluid p-0 m-0 ">
+        <div class="row worker p-0 m-0 py-5 px-5">
+            <div class="col-md-6 ps-5 py-5 align-items-center">
+                <h1 class=" fw-bold">WE DO </h1>
+                <h3 class="fw-bold py-2">Jet Engine Turbine and Aerodynamics</h3>
+                <p class="fw-bold text-white py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+                    numquam magni aliquid eius ipsum porro laudantium accusamus. Animi cupiditate impedit esse earum
+                    distinctio libero sed.</p>
+                <button class="text-capitalize px-3 py-2 border-0  rounded-2">read more</button>
+
+            </div>
+            <div class=" col-md-6 py-5"></div>
+        </div>
+    </div>
+
+    <!-- MAIN-REPAIR -->
+    <div class="container-fluid  p-0 m-0 main-repair">
+        <div class="row justify-content-evenly p-0 m-0">
+            <div class="col-md-6 p-5 detail">
+                <h4 class="fw-bold py-4 ">Maintenance and repairs of engines, prime movers and gas turbochargers.</h4>
+                <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus velit amet quod odio eius
+                    facere molestias modi, nostrum beatae nulla cupiditate dolores quaerat nisi aliquid reiciendis
+                    debitis unde esse dolorum.</p>
+                <div class="list text-start">
+                    <ul class="list-unstyled">
+                        <li><span class="fa-solid fa-circle-right pe-3"></span><span>Dolor sit amet, consectetu</span>
+                        </li>
+                        <li><span class="fa-solid fa-circle-right pe-3"></span><span>Sed do eiusmod tempor incididunt ut
+                                labore</span></li>
+                        <li><span class="fa-solid fa-circle-right pe-3"></span><span>Ut enim ad minim veniam, quis
+                                nostrud.</span></li>
+                        <li><span class="fa-solid fa-circle-right pe-3"></span><span>Sed do eiusmod tempor incididunt ut
+                                labore</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 pt-5">
+                <img class="rounded-2" src="./image/worker2.jpg" alt="" srcset="" style="height: 350px; width: 100%;">
+            </div>
+        </div>
+    </div>
+
+    <!-- MAINTANCE -->
+    <div class="card-group maintance py-3">
+        <div class=" main-1 border-0 ps-2 col-lg-4 col-md-12 col-sm-12 ">
+            <div class="card-body px-5 ">
+                <h1 class="col-md-3  card-title d-flex gap-3 align-items-center text text-center"><span
+                        class="fa-regular fa-paste"></span><span class="text-dark text-capitalize"> fullservice </span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, provident.adipisicing elit.
+                    Quidem, provident.</p>
+            </div>
+        </div>
+        <div class=" main-1 border-0 col-lg-4 col-md-12 col-sm-12 ">
+            <div class="card-body px-5">
+                <h1 class="col-md-3  card-title d-flex gap-3 align-items-center text text-center"><span
+                        class="fa-solid fa-wrench "></span><span class="text-dark text-capitalize">
+                        maintenance </span></h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, provident.adipisicing elit.
+                    Quidem, provident.</p>
+
+            </div>
+        </div>
+        <div class=" main-1 border-0 col-lg-4 col-md-12 col-sm-12 ">
+            <div class="card-body px-5">
+                <h1 class="col-md-3  card-title d-flex gap-3 align-items-center text text-center"><span
+                        class="fa-solid fa-truck-fast fa-flip-horizontal"></span><span class="text-dark text-capitalize">
+                    delivery </span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, provident.adipisicing elit.
+                Quidem, provident.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid  p-0 m-0  py-4 maintance">
+        <div class="row  p-0 m-0 justify-content-lg-evenly">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1><i class="fa-regular fa-paste"></i></h1>
+                    </div>
+                    <div class="col-md-10 ps-4">
+                        <h5 class="text-capitalize fw-bold">full service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, provident.adipisicing elit.
+                            Quidem, provident.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1><i class="fa-solid fa-wrench"></i></h1>
+                    </div>
+                    <div class="col-md-10 ps-4">
+                        <h5 class="text-capitalize fw-bold">maintenance</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, provident.adipisicing elit.
+                            Quidem, provident.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1><i class="fa-solid fa-truck-fast fa-flip-horizontal"></i></h1>
+                    </div>
+                    <div class="col-md-10 ps-4">
+                        <h5 class="text-capitalize fw-bold">delivery</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, provident.adipisicing elit.
+                            Quidem, provident.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- TESTIMONIAL -->
+    <div class="testimonial h-50 p-0 m-0">
+        <div class="container-fluid p-0 m-0 ">
+            <div class="heading-test py-5">
+                <h1 class="text-white fw-bold text-capitalize text-center ">tesimonial</h1>
+            </div>
+            <div class="row justify-content-evenly p-0 m-0">
+                <div class="col-md-3 bg-white p-4 m-4  public">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit voluptates. Quia
+                        obcaecati a
+                        suscipit sunt alias dolor ad vitae! Aliquam deleniti in molestiae inventore?</p>
+                    <div class="d-flex pt-4">
+                        <div class="image"><img src="./image/p1.jpg" alt="" srcset=""></div>
+                        <div class="details">
+                            <h5 class="fw-bold">Shane Watson</h5>
+                            <p class="batch">co-founder</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 bg-white p-4 m-4 public">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit voluptates. Quia
+                        obcaecati a
+                        suscipit sunt alias dolor ad vitae! Aliquam deleniti in molestiae inventore?</p>
+                    <div class="d-flex pt-4">
+                        <div class="image"><img src="./image/p2.jpg" alt="" srcset=""></div>
+                        <div class="details">
+                            <h5 class="fw-bold">Henry Nicholas</h5>
+                            <p class="batch">client</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 bg-white p-4 m-4 public">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, impedit voluptates. Quia
+                        obcaecati a
+                        suscipit sunt alias dolor ad vitae! Aliquam deleniti in molestiae inventore?</p>
+                    <div class="d-flex pt-4">
+                        <div class="image"><img src="./image/p3.jpg" alt="" srcset=""></div>
+                        <div class="details">
+                            <h5 class="fw-bold">Steve Waugh</h5>
+                            <p class="batch">worker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- COMPANY-WORK -->
+    <div class="container-fluid  py-5 m-0 p-0 company-work">
+        <div class="row p-0 m-0 pt-5 justify-content-evenly">
+            <div class="col-md-3">
+                <img src="./image/e1.jpg" class="w-100" alt="" srcset="">
+                <p class="pt-4">Mechanical Engineering</p>
+                <h5 class="fw-bold">Relief of company's own maintenance resources</h5>
+                <p class="text-capitalize pt-2 date">october 15, 2019</p>
+                <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, blanditiis?
+                </p>
+                <a href="" class="text-decoration-none">
+                    <p class="text-capitalize read">read more</p>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <img src="./image/e2.jpg" class="w-100" alt="" srcset="">
+                <p class="pt-4">Car Manufacturing</p>
+                <h5 class="fw-bold">Relief of company's own maintenance resources</h5>
+                <p class="text-capitalize pt-2 date">october 22, 2019</p>
+                <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, blanditiis?
+                </p>
+                <a href="" class="text-decoration-none">
+                    <p class="text-capitalize read">read more</p>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <img src="./image/e3.jpg" class="w-100" alt="" srcset="">
+                <p class="pt-4">Oil Features</p>
+                <h5 class="fw-bold">Assured plant availability and operational security</h5>
+                <p class="text-capitalize pt-2 date">october 28, 2019</p>
+                <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, blanditiis?
+                </p>
+                <a href="" class="text-decoration-none">
+                    <p class="text-capitalize read">read more</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- UPDATE -->
+    <div class="container-fluid p-0 m-0 update">
+        <div class="row p-0 m-0 justify-content-evenly py-5">
+            <div class="col-md-5 py-3">
+                <h3>Keep up to date — Get e-mail updates</h3>
+                <p>Stay tuned for the latest company news.</p>
+            </div>
+            <div class="col-md-5 py-3">
+                <span><input type="text" placeholder="Enter Your Email"><button>subscribe</button></span>
+                <span></span>
+            </div>
+        </div>
+
+    </div>
+
+    <hr class="p-0 m-0 ">
+
+    <!-- TRAVEL -->
+    <div class="container-fluid p-0 m-0 travel">
+        <div class="row p-0 m-0 justify-content-evenly py-5 ">
+            <div class="col-md-3 pt-4 ">
+                <h1><span class="fa-solid fa-location-dot"></span></h1>
+                <h3>our office</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quaerat!</p>
+                <a href="" class="text-decoration-none">
+                    <p>nearest office</p>
+                </a>
+            </div>
+            <div class="col-md-3 pt-4 ">
+                <h1><span class="fa-regular fa-envelope"></span></h1>
+                <h3>drop us a line</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quaerat!</p>
+                <a href="" class="text-decoration-none">
+                    <p>fill our form</p>
+                </a>
+            </div>
+            <div class="col-md-3 pt-4 ">
+                <h1><span class="fa-solid fa-life-ring"></span></h1>
+                <h3>open ticket</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quaerat!</p>
+                <a href="" class="text-decoration-none">
+                    <p>login</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="container-fluid p-0 m-0 con-form">
+        <div class="row p-0 m-0 py-4 px-5 justify-content-center">
+            <div class="col-md-5">
+                <h1 class=" text-capitalize fw-bold fs-2" href="#"><span class="fa-solid fa-industry me-2 fs-3 ms-2"
+                        style="color: #fd7e14;"></span>m-production</h1>
+            </div>
+            <div class="col-md-5  text-end">
+                <button class="px-5 py-3 rounded-3 fw-bold text-capitalize ">contact form <i
+                        class="ps-2 fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <hr class="p-0 m-0 " style="background-color: rgb(26, 23, 23);">
+
+    <!-- company-list -->
+    <div class="container-fluid p-0 m-0 con-list py-5">
+        <div class="row m-0 p-0 justify-content-evenly ps-5">
+            <div class="col-md-1 mt-4">
+                <h4 class="fw-bold text-capitalize">company</h4>
+                <form action="">
+                    <ul>
+                        <a href="">
+                            <li>About</li>
+                        </a>
+                        <a href="">
+                            <li>Services</li>
+                        </a>
+                        <a href="">
+                            <li>Blog</li>
+                        </a>
+                        <a href="">
+                            <li>Events</li>
+                        </a>
+                        <a href="">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </form>
+            </div>
+            <div class="col-md-2 mt-4">
+                <h4 class="fw-bold text-capitalize">solution</h4>
+                <form action="">
+                    <ul>
+                        <a href="">
+                            <li> Automotive Manfacturing</li>
+                        </a>
+                        <a href="">
+                            <li>Mechanical Engineering</li>
+                        </a>
+                        <a href="">
+                            <li>Industrial Construction</li>
+                        </a>
+                        <a href="">
+                            <li>Bridge Construction</li>
+                        </a>
+                        <a href="">
+                            <li>Oil & Gas Energy</li>
+                        </a>
+                    </ul>
+                </form>
+            </div>
+            <div class="col-md-2 mt-4">
+                <h4 class="fw-bold text-capitalize">Industries</h4>
+                <form action="">
+                    <ul>
+                        <a href="">
+                            <li>Electronic Materials</li>
+                        </a>
+                        <a href="">
+                            <li>Gift & Apparel</li>
+                        </a>
+                        <a href="">
+                            <li>Auto Parts</li>
+                        </a>
+                        <a href="">
+                            <li>Power Systems</li>
+                        </a>
+                        <a href="">
+                            <li>Building Management</li>
+                        </a>
+                    </ul>
+                </form>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h4 class="fw-bold text-capitalize">Contact Info</h4>
+                <form action="">
+                    <ul>
+                        <li>
+                            <span><i class=" pe-4 fa-solid fa-mobile-screen"></i>+142 5897555</span>
+                            <p class="ms-5">Lorem ipsum dolor sit amet,</p>
+                        </li>
+                        <li>
+                            <span><i class=" pe-4 fa-regular fa-clock"></i>Working time</span>
+                            <p class="ms-5">Mon - Fri: 9:00 - 19:00 / Closed on Weekends</p>
+                        </li>
+                        <li>
+                            <span><i class=" pe-4 fa-solid fa-location-dot"></i>Company Headquarters</span>
+                            <p class="ms-5">Lorem ipsum street, Newyork City</p>
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class=".container-fluid p-0 m-0 social py-3 ">
+        <div class="soical d-flex justify-content-center gap-5">
+            <a href="" class="text-decoration-none "><i class="fa-brands fa-instagram fs-2"></i></a>
+            <a href="" class="text-decoration-none "><i class="fa-brands fa-facebook fs-2"></i></a>
+            <a href="" class="text-decoration-none "><i class="fa-brands fa-google-plus-g fs-2"></i></a>
+            <a href="" class="text-decoration-none "><i class="fa-brands fa-linkedin-in fs-2"></i></a>
+        </div>
+        <hr style="background-color: white; height: 2px;">
+        <p class="text-center text-white">Copy Right 2019 Mass Production. All rights reserved.</p>
+    </div>
+
+
+
+
+    <!-- boostrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
